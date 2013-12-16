@@ -44,6 +44,14 @@ gridLine !byte $6b, $e0, $40, $5b, $40
 ; a border color - grid color byte pairs
 gridColor !word $0E0C, $0A0E, $020C, $080F, $050A, $0D0B, $040F, $080C, $050B
 
+TitleTxt     !scr "*** SUPERBALL C64 ***"
+AuthorTxt    !scr "2013  Krzysztof Kondrak"
+Line1Txt     !scr "Roll your ball but watch ahead,"
+Line2Txt     !scr "Nasty Disklets want you DEAD!"
+GoodLuckTxt  !scr "!!! GOOD LUCK !!!"
+PressFireTxt !scr "PRESS FIRE"
+GameOverTxt  !scr "Final Score:"
+
 ; main menu color wash data
 color !byte $09,$09,$02,$02,$08
       !byte $08,$0a,$0a,$0f,$0f
@@ -63,13 +71,6 @@ color2 !byte $09,$09,$02,$02,$08
        !byte $0f,$0f,$0a,$0a,$08
        !byte $08,$02,$02,$09,$09
 
-TitleTxt     !scr "*** SUPERBALL C64 ***"
-AuthorTxt    !scr "2013  Krzysztof Kondrak"
-Line1Txt     !scr "Roll your ball but watch ahead,"
-Line2Txt     !scr "Nasty Disklets want you DEAD!"
-GoodLuckTxt  !scr "!!! GOOD LUCK !!!"
-PressFireTxt !scr "PRESS FIRE"
-GameOverTxt  !scr "Final Score:"
 
 BALL_ANIM_DELAY     = 7   ; delay between ball frames - decrease to make it faster
 GRID_WIDTH          = 19

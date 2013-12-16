@@ -512,9 +512,11 @@ resetIngame:
       sta frameCounter
       sta ballMoveDir
       sta enemySpeed
-      sta enemyCount
       sta playBeepBoop
 
+      lda #2
+      sta enemyCount
+      
       lda #$ff
       sta currentLevel
       jsr increaseLevel

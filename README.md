@@ -1,4 +1,7 @@
-c64_fun
+Commodore 64 Fun Pack
 =======
 
-Collection of code written for Commodore 64 (games, utilities, etc.)
+Various code written for Commodore 64.
+
+- misc - miscellanious pieces of code demonstrating certain things (vertical scrolling, sprite demos etc.)
+- SuperBall_game - My Superball port to C64

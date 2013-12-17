@@ -1,4 +1,6 @@
-c64_fun
+C64 misc code
 =======
 
-Collection of code written for Commodore 64 (games, utilities, etc.)
+- <code>spriteDemo.asm</code> - load a sprite, controll it with joystick (port 2)
+- <code>textColor.asm</code> - nice color washing effect on text
+- <code>vertScroll.asm</code> - vertical text scrolling
